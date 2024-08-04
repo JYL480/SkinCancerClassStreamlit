@@ -6,7 +6,7 @@ from model import createModel
 import os
 
 # Define the path to your model's parameters and the class names
-param_path = "SkinCancerClassification7Classes.pth"
+param_path = "./app/SkinCancerClassification7Classes.pth"
 class_names_large = ['melanocytic_Nevi', "melanoma", "benign_keratosis-like_lesions",
                      'basal_cell_carcinoma', 'actinic_keratoses', "vascular_lesions",
                      'dermatofibroma']
