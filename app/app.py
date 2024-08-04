@@ -6,7 +6,7 @@ from model import createModel
 import os
 
 # Define the path to your model's parameters and the class names
-param_path = "./app/SkinCancerClassification7Classes.pth"
+param_path = "app/SkinCancerClassification7Classes.pth"
 class_names_large = ['melanocytic_Nevi', "melanoma", "benign_keratosis-like_lesions",
                      'basal_cell_carcinoma', 'actinic_keratoses', "vascular_lesions",
                      'dermatofibroma']
@@ -36,9 +36,9 @@ st.write("Upload an image to classify the type of skin cancer, or choose one of 
 
 # Provide example images
 example_images = {
-    "Melanoma": "./images/melanoma.jpg",
-    "melanocytic_Nevi": "./images/melanocytic_Nevi.jpg",
-    "benign_keratosis-like_lesions": "./images/benign_keratosis-like_lesions.jpg",
+    "Melanoma": "app/images/melanoma.jpg",
+    "melanocytic_Nevi": "app/images/melanocytic_Nevi.jpg",
+    "benign_keratosis-like_lesions": "app/images/benign_keratosis-like_lesions.jpg",
 }
 
 example_selected = st.checkbox("Use an example image")
