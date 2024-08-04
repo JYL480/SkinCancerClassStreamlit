@@ -41,7 +41,7 @@
 ## About The Project
 ![image](https://github.com/user-attachments/assets/4de29fa7-2c42-4701-bdcf-30c8b5258843)
 
-5 classes: melanocytic_Nevi, melanoma, benign_keratosis-like_lesions, basal_cell_carcinoma, actinic_keratoses,vascular_lesions, dermatofibroma
+**5 classes**: melanocytic_Nevi, melanoma, benign_keratosis-like_lesions, basal_cell_carcinoma, actinic_keratoses,vascular_lesions, dermatofibroma
      
 ### Try it yourself
 
